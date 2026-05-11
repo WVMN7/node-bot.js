@@ -15,7 +15,7 @@ const BOT_TOKEN = "8007572675:AAEpXtwxgLBvJp6jkjqAYrs2SvDiYpUwT5M";
 const VIDEO_LINK = "https://youtu.be/C8fHOcCHnf8";
 
 const VOICE_FILE = "./audio_2026-05-09_10-51-40.ogg"; 
-const VIDEO_NOTE_FILE = "./video_note.mp4"; // Fayl nomi aynan shundayligini tekshiring!
+const VIDEO_NOTE_FILE = "./video_note.mp4"; 
 
 const bot = new Telegraf(BOT_TOKEN);
 
