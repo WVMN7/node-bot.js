@@ -1,6 +1,4 @@
 const http = require('http');
-
-// Render port xatosini bermasligi uchun kichik server
 http.createServer((req, res) => {
     res.writeHead(200, { 'Content-Type': 'text/plain' });
     res.end('Bot is running alive!');
