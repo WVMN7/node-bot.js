@@ -4,7 +4,7 @@ http.createServer((req, res) => {
     res.end('Bot is running alive!');
 }).listen(process.env.PORT || 3000);
 
-// Sizning eski kodingiz shu yerdan davom etadi...
+
 
 const { Telegraf } = require('telegraf');
 const fs = require('fs');
