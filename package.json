@@ -1,4 +1,11 @@
 {
+  "name": "node-bot",
+  "version": "1.0.0",
+  "description": "Telegram bot",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js"
+  },
   "dependencies": {
     "dotenv": "^17.4.2",
     "node-cron": "^4.2.1",
