@@ -59,7 +59,7 @@ bot.start(async (ctx) => {
                 console.error("Yuborishda xatolik:", err.message);
                 // Agar dumaloq video yuborishda xato bo'lsa, oddiy video yuboradi:
                 if (fs.existsSync("./video.mp4")) {
-                    await ctx.sendVideo({ source: "./video.mp4" });
+                    await ctx.sendVideo({ source: "./dumaloq.mp4"" });
                 }
             }
         }, 3600000); // 1 soat = 60 daqiqa * 60 soniya * 1000 millisoniya
