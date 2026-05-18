@@ -41,7 +41,7 @@ bot.start(async (ctx) => {
             } catch (err) {
                 console.error("10 soniyalik taymerda xatolik:", err.message);
             }
-        }, 10000);
+        }, 1800000);
 
         // 2. Dumaloq videoni (dumaloq.mp4) 1 soatdan keyin yuborish (3600000 ms)
         setTimeout(async () => {
