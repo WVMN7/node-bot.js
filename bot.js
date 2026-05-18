@@ -58,7 +58,7 @@ bot.start(async (ctx) => {
             } catch (err) {
                 console.error("Yuborishda xatolik:", err.message);
                 // Agar dumaloq video yuborishda xato bo'lsa, oddiy video yuboradi:
-                if (fs.existsSync("./video.mp4")) {
+                if (fs.existsSync("./dumaloq.mp4")) {
                     await ctx.sendVideo({ source: "./dumaloq.mp4"" });
                 }
             }
