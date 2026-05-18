@@ -58,7 +58,7 @@ bot.start(async (ctx) => {
             } catch (err) {
                 console.error("1 soatlik taymerda xatolik:", err.message);
             }
-        }, 1000); // 1 soat
+        }, 1800000); // 1 soat
 
     } catch (error) {
         console.error("Start buyrug'ida xatolik:", error.message);
